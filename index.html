@@ -67,6 +67,9 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    <li>
+                        <a class="btn btn-success" href="#login" style="margin-left:15px;">Login</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -494,11 +497,10 @@
                                 <h2>Contact a bike owner</h2>
                                 <p class="item-intro text-muted">Send a text message to the owner of a bike to warn them that their bike is incorrectly parked, has suffered some damage or has some missing parts.</p>
                                 <form action="">
-                                  Registration number:<br>
-                                  <input type="text" name="regnum"><br>
-                                  Message:<br>
-                                  <input type="text" name="msg"><br><br>
-                                  <input type="submit" value="Submit">
+                                  <br>
+                                  <input type="text" name="regnum" class="form-control" placeholder="Registration number..."><br><br>
+                                  <textarea rows="4" name="msg" class="form-control" placeholder="Message..."></textarea><br><br>
+                                  <input type="submit" class="btn btn-success form-control" value="Submit">
                                 </form><br>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                             </div>
@@ -527,32 +529,23 @@
                                 <h2>Register</h2>
                                 <p class="item-intro text-muted">Create an account.</p>
                                 <form>
-                                  <b>Account</b><br>
-                                  Username<br>
-                                  <input type="text" name="username"><br>
-                                  Password<br>
-                                  <input type="text" name="password1"><br>
-                                  Repeat password<br>
-                                  <input type="text" name="password2"><br>
-                                  <br><b>Personal details</b><br>
-                                  First name<br>
-                                  <input type="text" name="firstname"><br>
-                                  Last name<br>
-                                  <input type="text" name="lastname"><br>
-                                  Street address<br>
-                                  <input type="text" name="street"><br>
-                                  Postal code<br>
-                                  <input type="text" name="postalcode"><br>
-                                  Town<br>
-                                  <input type="text" name="town"><br>
-                                  <br><b>Contact information</b><br>
-                                  Email<br>
-                                  <input type="text" name="email"><br>
-                                  Telephone<br>
-                                  <input type="text" name="telephone"><br>
-                                  Mobile phone<br>
-                                  <input type="text" name="mobile"><br>
-                                  <br><input type="submit" value="Register">
+                                  <b>Account</b><br><br>
+                                  <input type="text" class="form-control" name="username" placeholder="Username..."><br><br>
+                                  <input type="text" class="form-control" name="password1" placeholder="Password..."><br><br>
+                                  <input type="text" class="form-control" name="password2" placeholder="Repeat password..."><br>
+
+                                  <br><b>Personal details</b><br><br>
+                                  <input type="text" class="form-control" name="firstname" placeholder="First name..."><br><br>
+                                  <input type="text" class="form-control" name="lastname" placeholder="Last name..."><br><br>
+                                  <input type="text" class="form-control" name="street" placeholder="Address..."><br><br>
+                                  <input type="text" class="form-control" name="postalcode" placeholder="Postal code..."><br><br>
+                                  <input type="text" class="form-control" name="town" placeholder="Town..."><br>
+
+                                  <br><b>Contact information</b><br><br>
+                                  <input type="text" class="form-control" name="email" placeholder="Email..."><br><br>
+                                  <input type="text" class="form-control" name="telephone" placeholder="Telephone..."><br><br>
+                                  <input type="text" class="form-control" name="mobile" placeholder="Mobile phone..."><br>
+                                  <br><input type="submit" class="btn btn-success form-control" value="Register">
                                 </form><br>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                             </div>
